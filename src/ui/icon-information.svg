@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-icon-information">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="icon-information" clip-path="url(#clip-icon-information)">
+    <g id="Gruppe_34619" data-name="Gruppe 34619" transform="translate(64.307 67.637) rotate(180)">
+      <path id="Pfad_166179" data-name="Pfad 166179" d="M98.848,70.621V83.746a1.541,1.541,0,0,0,3.082,0V70.621a1.541,1.541,0,0,0-3.082,0Z" transform="translate(-68.538 -44.609)" fill="#b2b2b2"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.917" cy="1.917" r="1.917" transform="translate(29.935 42.059)" fill="#b2b2b2"/>
+    </g>
+    <g id="Rechteck_11007" data-name="Rechteck 11007" transform="translate(32.456 5.721) rotate(45)" fill="none" stroke="#b2b2b2" stroke-width="2">
+      <rect width="37.809" height="37.809" stroke="none"/>
+      <rect x="1" y="1" width="35.809" height="35.809" fill="none"/>
+    </g>
+  </g>
+</svg>
