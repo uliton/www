@@ -1,7 +1,5 @@
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./utils/reset";
-@import "./utils/normolize";
-@import "./utils/container";
-
-@import "./App.scss";
+@import "./utils/styles/variables";
+@import "./utils/styles/mixins";
+@import "./utils/styles/reset";
+@import "./utils/styles/normolize";
+@import "./utils/styles/container";

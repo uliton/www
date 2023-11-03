@@ -4,8 +4,8 @@
   }
 }
 
-@mixin on1440 {
-  @media (min-width: 1440px) {
+@mixin on1280 {
+  @media (min-width: 1280px) {
     @content;
   }
 }

@@ -1,0 +1,17 @@
+@import '../../utils/styles/variables';
+@import '../../utils/styles/mixins';
+
+.body {
+  color: $mainTextColor;
+  background-color: $backgroundColorWhite;
+
+  border-left: 1px solid $secondaryTextColor;
+  border-right: 1px solid $secondaryTextColor;
+
+  padding: $padding $padding_s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}

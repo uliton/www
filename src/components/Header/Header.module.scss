@@ -1,0 +1,8 @@
+@import '../../utils/styles/variables';
+@import '../../utils/styles/mixins';
+
+.body {
+  color: $headerAndFooterTextColor;
+  background-color: $backgroundColorRed;
+  padding: $padding;
+}

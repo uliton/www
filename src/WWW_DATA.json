@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "name": "Nikolaihof",
+      "logo": "https://icdn.bottlenose.wine/images/full/697036.jpg?fit=clip&h=594&w=594&auto=format&ixlib=imgixjs-3.6.1",
+      "address": {
+        "city": "Mautern",
+        "street": "Nikolaigasse",
+        "number": 3,
+        "zip": 3512
+      },
+      "contacts": {
+        "website": "https://www.nikolaihof.at",
+        "email": "",
+        "phone": ""
+      }
+    },
+    "catalog": [
+      {
+        "id": 101,
+        "type": "",
+        "year": 0,
+        "description": "",
+        "bottle_size": 0,
+        "price": 0,
+        "alcohol_content": 0,
+        "taste": [""]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "data": {
+      "name": "Hutter",
+      "logo": "https://www.hutter-wachau.at/files/layout/hutter-wachau-logo.png",
+      "address": {
+        "city": "Mautern",
+        "street": "St. Pöltnerstraße",
+        "number": 385,
+        "zip": 3512
+      },
+      "contacts": {
+        "website": "https://www.hutter-wachau.at",
+        "email": "info@hutter-wachau.at",
+        "phone": "+43 664 735 43 143"
+      }
+    },
+    "catalog": [
+      {
+        "id": 101,
+        "type": "",
+        "year": 0,
+        "description": "",
+        "bottle_size": 0,
+        "price": 0,
+        "alcohol_content": 0,
+        "taste": [""]
+      }
+    ]
+  }
+]

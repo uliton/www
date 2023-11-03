@@ -1,0 +1,40 @@
+@import '../../utils/styles/variables';
+@import '../../utils/styles/mixins';
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  margin: 0 auto;
+  max-width: 80%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.name {
+  color: $mainTextColor;
+}
+
+.item {
+  display: flex;
+  gap: 12px;
+  color: $secondaryTextColor;
+  font-size: 11px;
+  line-height: 140%;
+
+  & > :first-child {
+    color: $mainTextColor;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  transition: all .5s;
+
+  &:hover {
+    color: $mainTextColor;
+  }
+}
