@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-import './styles.css';
+import './styles.scss';
 
 import { WineryData } from '../WineryData';
 import style from './Winery.module.scss';
@@ -27,34 +27,34 @@ export const Winery: React.FC<Props> = ({ winery }) => {
         modules={[EffectCards]}
         className="mySwiper"
         initialSlide="1"
-        loop={true}        
       >
-        <React.Fragment key={winery.id}>
-          <SwiperSlide>
-            <WineryData
-              data={winery.data}
-            />
-          </SwiperSlide>
+        <SwiperSlide>
+          <WineryData
+            data={winery.data}
+          />
+        </SwiperSlide>
 
-          <SwiperSlide>
-            <WineryData
-              data={winery.data}
+        {winery.catalog.map(wine => (
+          <React.Fragment key={wine.id}>
+            <SwiperSlide>
+              <WineryData
+                data={winery.data}
               />
-          </SwiperSlide>
-              
-          <SwiperSlide>
-            <WineryData
-              data={winery.data}
-            />
-          </SwiperSlide>
+            </SwiperSlide>
+                
+            <SwiperSlide>
+              <WineryData
+                data={winery.data}
+              />
+            </SwiperSlide>
 
-          <SwiperSlide>
-            <WineryData
-              data={winery.data}
+            <SwiperSlide>
+              <WineryData
+                data={winery.data}
               />
-          </SwiperSlide>
-              
-        </React.Fragment>
+            </SwiperSlide>   
+          </React.Fragment>
+        ))}
       </Swiper>
     </div>
   );

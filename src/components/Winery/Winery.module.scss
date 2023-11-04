@@ -2,8 +2,6 @@
 @import '../../utils/styles/mixins';
 
 .body {
-  width: 100%;
-  border-radius: 5px;
-  box-shadow: 0 0 12px $boxShadowColor;
+  width: 90%;
   padding: $padding;
 }

@@ -1,7 +1,9 @@
-.swiper {
-  width: 240px;
-  height: 320px;
-}
+@import "../../utils/styles/_variables.scss";
+
+// .swiper {
+//   width: 240px;
+//   height: 320px;
+// }
 
 .swiper-slide {
   display: flex;
@@ -11,9 +13,13 @@
   font-size: 22px;
   font-weight: bold;
   color: #fff;
+
+  border-radius: 5px;
+  box-shadow: 0 0 12px $boxShadowColor;
+  background-color: $backgroundColorWhite;
 }
 
-.swiper-slide:nth-child(1n) {
+/* .swiper-slide:nth-child(1n) {
   background-color: rgb(206, 17, 17);
 }
 
@@ -35,7 +41,7 @@
 
 .swiper-slide:nth-child(6n) {
   background-color: rgb(180, 10, 47);
-}
+} */
 
 .swiper-slide:nth-child(7n) {
   background-color: rgb(35, 99, 19);

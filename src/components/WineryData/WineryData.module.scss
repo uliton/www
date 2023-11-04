@@ -4,12 +4,13 @@
 .body {
   display: flex;
   flex-direction: column;
+  padding: $padding;
 }
 
 .img {
   margin: 0 auto;
   max-width: 80%;
-  height: 150px;
+  height: 120px;
   object-fit: contain;
 }
 
