@@ -1,4 +1,11 @@
 import React from 'react';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCards } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import './styles.css';
+
 import { WineryData } from '../WineryData';
 import style from './Winery.module.scss';
 
@@ -14,11 +21,41 @@ export const Winery: React.FC<Props> = ({ winery }) => {
 
   return (
     <div className={style.body}>
-      <WineryData
-        data={winery.data}
-      />
+      <Swiper
+        effect={'cards'}
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="mySwiper"
+        initialSlide="1"
+        loop={true}        
+      >
+        <React.Fragment key={winery.id}>
+          <SwiperSlide>
+            <WineryData
+              data={winery.data}
+            />
+          </SwiperSlide>
 
+          <SwiperSlide>
+            <WineryData
+              data={winery.data}
+              />
+          </SwiperSlide>
+              
+          <SwiperSlide>
+            <WineryData
+              data={winery.data}
+            />
+          </SwiperSlide>
 
+          <SwiperSlide>
+            <WineryData
+              data={winery.data}
+              />
+          </SwiperSlide>
+              
+        </React.Fragment>
+      </Swiper>
     </div>
   );
 };
