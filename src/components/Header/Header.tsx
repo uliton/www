@@ -1,7 +1,9 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { Filter } from '../../ui/icons/Filter';
 import { Logo } from '../../ui/Logo';
 import { getTranslation, Language } from '../../utils/functions/language';
+import { LanguageSelector } from '../LanguageSelector';
+import { LanguageUsed } from '../LanguageUsed';
 import style from './Header.module.scss';
 
 type Props = {
@@ -34,6 +36,8 @@ export const Header: React.FC<Props> = ({ setLang }) => {
 
       <div className={style.services}>
         <Filter />
+
+        <LanguageUsed setLang={setLang} />
       </div>
     </div>
   );

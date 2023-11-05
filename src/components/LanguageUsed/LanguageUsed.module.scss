@@ -1,0 +1,16 @@
+@import '../../utils/styles/variables';
+@import '../../utils/styles/mixins';
+
+.body {
+  width: min-content;
+  height: min-content;
+  
+}
+
+.button {
+  display: flex;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  outline: none;
+}
