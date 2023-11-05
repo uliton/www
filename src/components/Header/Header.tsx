@@ -1,4 +1,6 @@
 import React, { useContext } from 'react';
+import { Filter } from '../../ui/icons/Filter';
+import { Logo } from '../../ui/Logo';
 import { getTranslation, Language } from '../../utils/functions/language';
 import style from './Header.module.scss';
 
@@ -26,7 +28,13 @@ export const Header: React.FC<Props> = ({ setLang }) => {
   
   return (
     <div className={style.body}>
-      {MOCK.header_title}
+      <div className={style.logo}>
+        <Logo />
+      </div>
+
+      <div className={style.services}>
+        <Filter />
+      </div>
     </div>
   );
 };

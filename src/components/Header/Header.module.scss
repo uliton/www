@@ -2,7 +2,27 @@
 @import '../../utils/styles/mixins';
 
 .body {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   color: $headerAndFooterTextColor;
   background-color: $backgroundColorRed;
-  padding: $padding;
+  padding: $padding_s;
+
+  box-shadow: 0 2px 12px $boxShadowColor;
+}
+
+.logo {
+  width: min-content;
+}
+
+.services {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
 }
