@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './De.module.scss';
+import style from './Fr.module.scss';
 
 type Props = {}
 
-export const De: React.FC<Props> = () => {
+export const Fr: React.FC<Props> = () => {
   return (
     <svg
       viewBox="0 0 256 256"
@@ -14,17 +14,17 @@ export const De: React.FC<Props> = () => {
         transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
       >
         <path
-          d="M 2.57 30 l 84.859 0 C 81.254 12.534 64.611 0.015 45.033 0 l -0.068 0 C 25.388 0.015 8.745 12.534 2.57 30 z"
+          d="M 59.999 2.571 l 0 84.859 c 17.466 -6.175 29.985 -22.818 30 -42.396 v -0.068 C 89.985 25.389 77.465 8.745 59.999 2.571 z"
           className={style.p_1}
           transform=" matrix(1 0 0 1 0 0) "
           stroke-linecap="round"/>
         <path
-          d="M 87.429 60 L 2.57 60 C 8.749 77.476 25.408 90 45 90 S 81.25 77.476 87.429 60 z"
+          d="M 30 87.429 l 0 -84.858 C 12.524 8.75 0 25.408 0 45 S 12.524 81.25 30 87.429 z"
           className={style.p_2}
           transform=" matrix(1 0 0 1 0 0) "
           stroke-linecap="round"/>
         <path
-          d="M 87.429 60 C 89.088 55.307 90 50.261 90 45 c 0 -5.261 -0.911 -10.307 -2.571 -15 L 2.57 30 C 0.911 34.693 0 39.739 0 45 c 0 5.261 0.912 10.307 2.571 15 L 87.429 60 z"
+          d="M 30 87.429 C 34.693 89.088 39.739 90 45 90 c 5.261 0 10.307 -0.911 15 -2.571 l 0 -84.859 C 55.307 0.911 50.261 0 45 0 c -5.261 0 -10.307 0.912 -15 2.571 L 30 87.429 z"
           className={style.p_3}
           transform=" matrix(1 0 0 1 0 0) "
           stroke-linecap="round"/>

@@ -3,6 +3,31 @@
 
 .body {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 50px;
+  right: 1px;
+
+  padding: $padding_s;
+  
+  border-radius: 5px;
+  box-shadow: 0 0 12px $boxShadowColor;
+  background-color: $backgroundColorWhite;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  outline: none;
+
+  color: $backgroundColorRed;
+
+  margin-bottom: 4px;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
