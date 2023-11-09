@@ -10,7 +10,7 @@ export const App: React.FC = () => {
   const [lang, setLang] = useState<string>('en');
 
   return (
-    <div className="app container">
+    <div className="app">
       <Language.Provider value={lang}>
         <Header setLang={setLang} />
 

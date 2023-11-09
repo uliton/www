@@ -9,18 +9,14 @@ interface Winery {
 interface WineryData {
   name: string,
   logo: string,
-  address: WineryAddress,
-  contacts: WineryContacts,
+  info: WineryInfo,
 }
 
-interface WineryAddress {
+interface WineryInfo {
   city: string,
   street: string,
   number: number,
   zip: number,
-}
-
-interface WineryContacts {
   website: string,
   email: string,
   phone: string,
@@ -28,11 +24,14 @@ interface WineryContacts {
 
 interface Wine {
   id: number,
+  name: string
   type: string,
+  is_muscat: boolean,
   year: number,
   description: string,
   bottle_size: number,
   price: number,
   alcohol_content: number,
   taste: string[],
+  img: string,
 }

@@ -8,6 +8,7 @@ import './styles.scss';
 
 import { WineryData } from '../WineryData';
 import style from './Winery.module.scss';
+import { Wine } from '../Wine/Wine';
 
 type Props = {
   winery: Winery;
@@ -37,22 +38,10 @@ export const Winery: React.FC<Props> = ({ winery }) => {
         {winery.catalog.map(wine => (
           <React.Fragment key={wine.id}>
             <SwiperSlide>
-              <WineryData
-                data={winery.data}
+              <Wine
+                wineInfo={wine}
               />
             </SwiperSlide>
-                
-            <SwiperSlide>
-              <WineryData
-                data={winery.data}
-              />
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <WineryData
-                data={winery.data}
-              />
-            </SwiperSlide>   
           </React.Fragment>
         ))}
       </Swiper>

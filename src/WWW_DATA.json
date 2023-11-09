@@ -4,13 +4,11 @@
     "data": {
       "name": "Nikolaihof",
       "logo": "https://icdn.bottlenose.wine/images/full/697036.jpg?fit=clip&h=594&w=594&auto=format&ixlib=imgixjs-3.6.1",
-      "address": {
+      "info": {
         "city": "Mautern",
         "street": "Nikolaigasse",
         "number": 3,
-        "zip": 3512
-      },
-      "contacts": {
+        "zip": 3512,
         "website": "https://www.nikolaihof.at",
         "email": "",
         "phone": ""
@@ -19,13 +17,16 @@
     "catalog": [
       {
         "id": 101,
-        "type": "",
-        "year": 0,
+        "name": "Riesling Baumpresse Im Weingebirge",
+        "type": "Riesling",
+        "is_muscat": false,
+        "year": 2015,
         "description": "",
-        "bottle_size": 0,
-        "price": 0,
-        "alcohol_content": 0,
-        "taste": [""]
+        "bottle_size": 0.75,
+        "price": 82.00,
+        "alcohol_content": 12,
+        "taste": ["mineralisch", "unkonventionell", "frische Säure"],
+        "img": "https://res.cloudinary.com/guteweine/image/upload/dpr_2.0%2Cf_auto%2Cq_auto%3Aeco%2Cc_limit%2Cw_120%2Ch_570%2Cd_wine_default_2020_2.png/v1/products/35384Hfl_o.png?_a=BAAAROGX"
       }
     ]
   },
@@ -34,13 +35,11 @@
     "data": {
       "name": "Hutter",
       "logo": "https://www.hutter-wachau.at/files/layout/hutter-wachau-logo.png",
-      "address": {
+      "info": {
         "city": "Mautern",
         "street": "St. Pöltnerstraße",
         "number": 385,
-        "zip": 3512
-      },
-      "contacts": {
+        "zip": 3512,
         "website": "https://www.hutter-wachau.at",
         "email": "info@hutter-wachau.at",
         "phone": "+43 664 735 43 143"
@@ -48,14 +47,17 @@
     },
     "catalog": [
       {
-        "id": 101,
+        "id": 201,
+        "name": "",
         "type": "",
+        "is_muscat": false,
         "year": 0,
         "description": "",
         "bottle_size": 0,
         "price": 0,
         "alcohol_content": 0,
-        "taste": [""]
+        "taste": [""],
+        "img": ""
       }
     ]
   }

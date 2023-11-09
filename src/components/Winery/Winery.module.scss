@@ -2,6 +2,7 @@
 @import '../../utils/styles/mixins';
 
 .body {
-  width: 90%;
+  width: $cardWidth;
+  max-width: $maxCardWidth;
   padding: $padding;
 }

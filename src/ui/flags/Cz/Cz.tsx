@@ -24,13 +24,13 @@ export const Cz: React.FC<Props> = () => {
           d="M 45 90 C 20.147 90 0 69.853 0 45 h 90 C 90 69.853 69.853 90 45 90 z"
           className={style.p_1}
           transform=" matrix(1 0 0 1 0 0) "
-          stroke-linecap="round"
+          strokeLinecap-="round"
         />
         <path
           d="M 10.013 73.29 C 3.755 65.56 0 55.721 0 45 c 0 -10.675 3.725 -20.475 9.935 -28.19 l 42.342 28.248 L 10.013 73.29 z"
           className={style.p_2}
           transform=" matrix(1 0 0 1 0 0) "
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
     </svg>

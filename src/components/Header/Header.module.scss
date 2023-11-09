@@ -6,15 +6,17 @@
   top: 0;
   z-index: 5;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
   color: $headerAndFooterTextColor;
   background-color: $backgroundColorRed;
   padding: $padding_s;
-
+  
   box-shadow: 0 2px 12px $boxShadowColor;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {

@@ -6,7 +6,9 @@ type Props = {}
 export const Footer: React.FC<Props> = () => {
   return (
     <div className={style.body}>
-      footer
+      <div className="container">
+        Footer
+      </div>
     </div>
   );
 };
