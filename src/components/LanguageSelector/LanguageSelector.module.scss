@@ -3,16 +3,22 @@
 
 .body {
   position: absolute;
-  top: 36px;
+  top: -350px;
   right: -10px;
   // z-index: 1;
 
-  padding: $padding_s;
+  padding: $padding_l $padding_s $padding_s;
 
-  border-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   box-shadow: 0px 1px 4px $boxShadowColor;
   background-color: $backgroundColorRed;
 
+  transition: all .5s;
+}
+
+.body_is_open {
+  top: -22px;
 }
 
 .icon {
@@ -29,7 +35,7 @@
   font-size: 16px;
   color: $backgroundColorWhite;
 
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 
   &:last-child {
     margin-bottom: 0;

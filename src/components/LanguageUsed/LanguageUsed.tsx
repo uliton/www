@@ -57,7 +57,7 @@ export const LanguageUsed: React.FC<Props> = ({ setLang }) => {
   }
 
   const handlerLanguageSelect = () => {
-    setLanguageSelectorIsOpen(!languageSelectorIsOpen);
+    setLanguageSelectorIsOpen(true);
   }
 
   return (
@@ -70,12 +70,11 @@ export const LanguageUsed: React.FC<Props> = ({ setLang }) => {
         {languageSelected(lang)}
       </button>
 
-      {languageSelectorIsOpen && (
-        <LanguageSelector
-          setLang={setLang}
-          setLanguageSelectorIsOpen={setLanguageSelectorIsOpen}
-        />
-      )}
+      <LanguageSelector
+        languageSelectorIsOpen={languageSelectorIsOpen}
+        setLanguageSelectorIsOpen={setLanguageSelectorIsOpen}
+        setLang={setLang}
+      />
     </div>
   );
 };

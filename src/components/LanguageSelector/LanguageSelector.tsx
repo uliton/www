@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 import { Cz } from '../../ui/flags/Cz';
 import { De } from '../../ui/flags/De';
 import { En } from '../../ui/flags/En';
@@ -11,8 +12,9 @@ import { Ua } from '../../ui/flags/Ua';
 import style from './LanguageSelector.module.scss';
 
 type Props = {
-  setLang: (_: string) => void,
+  languageSelectorIsOpen: boolean,
   setLanguageSelectorIsOpen: (_: boolean) => void,
+  setLang: (_: string) => void,
 }
 
 enum LANG {
@@ -27,14 +29,21 @@ enum LANG {
   tr = "tr",
 }
 
-export const LanguageSelector: React.FC<Props> = ({ setLang, setLanguageSelectorIsOpen }) => {
+export const LanguageSelector: React.FC<Props> = ({ 
+  languageSelectorIsOpen,
+  setLanguageSelectorIsOpen,
+  setLang,
+}) => {
+  
   const handlerChoosLanguage = (lang: string) => {
     setLang(lang);
     setLanguageSelectorIsOpen(false); 
   }
 
   return (
-    <div className={style.body}>
+    <div className={classNames(style.body, {
+      [style.body_is_open]: languageSelectorIsOpen,
+    })}>
       <button
         type="button"
         className={style.icon}
