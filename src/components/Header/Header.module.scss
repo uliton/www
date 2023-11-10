@@ -2,9 +2,14 @@
 @import '../../utils/styles/mixins';
 
 .body {
+  position: relative;
+
+}
+
+.header {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 
   color: $headerAndFooterTextColor;
   background-color: $backgroundColorRed;
@@ -17,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: $backgroundColorRed;
 }
 
 .logo {
@@ -27,4 +33,26 @@
   display: flex;
   gap: 32px;
   align-items: center;
+}
+
+.filters {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  
+  height: 0px;
+  transition: all 1s;
+  overflow: hidden;
+
+  border: none;
+  background-color: $backgroundColorRed;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0px 4px 4px $boxShadowColor;
+}
+
+.filters_is_open {
+  height: 200px;
 }
