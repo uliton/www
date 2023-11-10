@@ -1,4 +1,10 @@
+@import "../../../utils/styles/variables";
+
 .body {
-  width: 24px;
-  height: 20px;
+  width: $filterIconSize;
+  height: $filterIconSize;
+
+  &:hover {
+    cursor: pointer;
+  }
 }

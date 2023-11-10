@@ -26,7 +26,7 @@ interface Wine {
   id: number,
   name: string
   type: string,
-  is_muscat: boolean,
+  is_smaragd: boolean,
   year: number,
   description: string,
   bottle_size: number,
@@ -34,4 +34,5 @@ interface Wine {
   alcohol_content: number,
   taste: string[],
   img: string,
+  liks: number,
 }

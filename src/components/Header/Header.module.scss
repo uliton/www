@@ -4,11 +4,11 @@
 .body {
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 2;
 
   color: $headerAndFooterTextColor;
   background-color: $backgroundColorRed;
-  padding: $padding_s;
+  padding: $padding_s $padding_l;
   
   box-shadow: 0 2px 12px $boxShadowColor;
 }
@@ -25,6 +25,6 @@
 
 .services {
   display: flex;
-  gap: 24px;
+  gap: 32px;
   align-items: center;
 }
