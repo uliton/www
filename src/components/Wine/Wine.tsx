@@ -33,7 +33,7 @@ export const Wine: React.FC<Props> = ({ wineInfo }) => {
         <div className={style.left}>
           <img
             src={wineInfo.img}
-            alt="vine"
+            alt="wine"
             className={style.img}
           />
         </div>
