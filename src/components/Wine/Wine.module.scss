@@ -37,29 +37,30 @@
 }
 
 .name {
-  font-size: 12px;
+  font-size: 70%;
   text-align: right;
   line-height: 140%;
 }
 
 .wrapper {
-  font-size: 12px;
+  font-size: 50%;
   font-weight: 400;
   margin-left: 40px;
 
   & > * {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
+    gap: 12px;
+    margin-bottom: 10px;
   }
 }
 
 .icon {
-  width: 26px;
+  width: 20%;
 }
 
 .price {
+  font-size: 120%;
   text-align: right;
 }
 
@@ -67,7 +68,7 @@
   display: flex;
   justify-content: end;
   gap: 4px;
-  font-size: 8px;
+  font-size: 30%;
   margin-top: 4px;
 
   & > p {
@@ -78,19 +79,20 @@
 .counter_container {
   display: flex;
   justify-content: end;
-  gap: 16px;
+  gap: 10%;
 }
 
 .counter {
-  width: 75px;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 100%;
 }
 
 .button {
-  width: 20px;
-  height: 20px;
+  width: 28%;
+  height: 60%;
   color: $backgroundColorRed;
   border: 1px solid #F1AD26;
   border-radius: 5px;
@@ -98,7 +100,7 @@
 }
 
 .add_button {
-  width: 36px;
+  width: 24%;
   height: 36px;
   font-size: 12px;
   letter-spacing: .8px;
