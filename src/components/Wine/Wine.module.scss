@@ -23,12 +23,16 @@
 }
 
 .left {
-  width: min-content;
+  // width: 100%;
+  // width: min-content;
+  display: inline;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .img {
-  width: min-content;
-  height: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .right {
