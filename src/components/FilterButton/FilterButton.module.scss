@@ -1,0 +1,13 @@
+@import '../../utils/styles/variables';
+@import '../../utils/styles/mixins';
+
+.body {
+  // position: relative;
+}
+
+.button {
+  display: flex;
+  background: none;
+  border: none;
+  outline: none;
+}

@@ -14,7 +14,7 @@ export const Header: React.FC<Props> = ({ setLang }) => {
   const [filterSelectorIsOpen, setFilterSelectorIsOpen] = useState<boolean>(false);
 
   return (
-    <div className={style.body}>
+    <header className={style.body}>
       <div className={style.header}>
         <div className="container">
           <div className={style.content}>
@@ -42,6 +42,6 @@ export const Header: React.FC<Props> = ({ setLang }) => {
       })}>
         <FilterSelector filterSelectorIsOpen={filterSelectorIsOpen} />
       </div>
-    </div>
+    </header>
   );
 };
